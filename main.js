@@ -1,4 +1,6 @@
 function getMiddle(str){
+  let array = str.split('');
+  
   if (array.length%2 === 1){
     return array[Math.floor(array.length/2)]
   }else{
