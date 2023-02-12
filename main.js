@@ -7,3 +7,14 @@ function getMiddle(str){
     return array[Math.floor(array.length/2)-1] + array[Math.floor(array.length/2)]
   }
 }
+
+
+/*
+better, math based. just use slice method
+
+function getMiddle(s)
+{
+  return s.slice((s.length-1)/2, s.length/2+1);
+}
+
+*/
